@@ -1,0 +1,9 @@
+div {
+    background: #ff0000;
+    font-size: 25px;
+}
+
+div {
+    padding: 150px 250px;
+    box-sizing: border-box;
+}
