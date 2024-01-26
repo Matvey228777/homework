@@ -1,0 +1,23 @@
+#id-block {
+    color: red;
+}
+
+[primer="value1"] {
+    color: pink;
+}
+
+.block1, .block5 {
+    color: blue;
+}
+
+div.blue-block {
+    background-color: aqua;
+}
+
+div .orange {
+    color: coral;
+}
+
+.parent>.child {
+    color: deeppink;
+}
