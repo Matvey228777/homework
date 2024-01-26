@@ -1,0 +1,26 @@
+.first {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.second {
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.third {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#one {
+    word-spacing: 30px;
+    text-shadow: 0px 0px 2px #ff00b7;
+    text-decoration: overline wavy;
+}
+
+#two {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
