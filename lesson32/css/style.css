@@ -1,0 +1,30 @@
+div.a {
+    border-color: #4c4c4c;
+    border-width: 12px;
+    border-style: solid;
+    border-top: 12px dashed #4c4c4c;
+    color: yellow;
+    background: red;
+    border-top-color: black;
+}
+
+div.a {
+    height: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+img {
+    width: 384px;
+    height: 216px;
+    border: 8px double #4c4c4c;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.b {
+    width: 30px;
+    outline: 2px groove #4c4c4c;
+}
