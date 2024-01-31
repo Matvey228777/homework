@@ -1,0 +1,22 @@
+img {
+    width: 384px;
+    height: 216px;
+}
+
+[name='aa'] > img {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+[name='aa'] {
+    display: inline-block;
+}
+
+.b {
+    display: inline-block;
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 30px;
+}
+
