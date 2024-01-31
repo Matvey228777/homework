@@ -1,0 +1,20 @@
+.main {
+    overflow: auto;
+    height: 520px;
+    background-color: rgb(247, 216, 224);
+    border-radius: 24px 0px 0px 24px;
+    border: 1px solid black;
+}
+
+.a {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #feddc2;
+    height: 210px;
+    width: 230px;
+    padding: 14px 25px 25px 20px;
+    margin: 11px 4px;
+    /* box-shadow: inset 1px 1px 10px 5px black; */
+    box-shadow: inset 0px 0px 10px 1px black;
+}
