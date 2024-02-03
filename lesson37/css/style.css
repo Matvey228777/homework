@@ -1,0 +1,48 @@
+body {
+    font-size: 40px;
+    background: #f3f3f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw #0615633b;
+    border-radius: 2vw;
+    background: #fff;
+}
+
+/* ====================================================== */
+.block {
+    background: url(../img/Ann.jpg) 50% 50% / 45% auto no-repeat, radial-gradient(white 70%, #ffe8bd);
+    /* background-attachment: fixed; */
+    /* background-image: radial-gradient(white,rgb(255, 216, 142)); */
+}
+
+.grad {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw #4a4a4a;
+    border-radius: 20px;
+}
+
+.grad {
+    background: url(/img/gibdd.png) 50% 50%/ 50% auto no-repeat, linear-gradient(90deg, blue, red)
+}
+
+.sport {
+    margin: 100px 50px;
+    height: 500px;
+    box-shadow: 0 0.1px 10px 5px #4d4d4d;
+    border-radius: 15px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.sport {
+    background: url(/img/vert.jpg) 50% 50%/ 1108px auto;
+    background-attachment: fixed;
+}
