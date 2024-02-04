@@ -43,6 +43,6 @@ body {
 }
 
 .sport {
-    background: url(/img/vert.jpg) 50% 50%/ 1108px auto;
+    background: url(../img/vert.jpg) 50% 50%/ 1108px auto;
     background-attachment: fixed;
 }
