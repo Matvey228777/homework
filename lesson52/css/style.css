@@ -1,0 +1,58 @@
+.units {
+  display: flex;
+  font-size: 50px;
+  gap: 50px;
+}
+
+.units__col {
+  flex: 0 1 50%;
+}
+
+.units__col h2 {
+  text-align: center;
+}
+
+.units__item {
+  font-size: 30px;
+  background-color: rgb(224, 224, 224);
+  margin-bottom: 5px;
+  padding-left: 20px;
+  font-size: 5vw;
+}
+
+.line {
+  height: 2px;
+  background-color: #333;
+  margin: 50px 0;
+}
+
+p {
+  font-size: 40px;
+}
+
+.em__quad, .vhw__quad, .rem__quad, .precents__quad {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+}
+
+.precents__parent-quad {
+  background-color: green;
+}
+.precents__child-quad {
+  background-color: #333;
+}
+
+/* -------------------------------------------- */
+
+.units {
+  font-size: 5vw;
+}
+
+.units {
+  gap: 4vw;
+}
+
+.precents__text, .vhw__text-1 {
+  font-size: 6vw;
+}
