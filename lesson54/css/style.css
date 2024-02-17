@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src:
+        local('Dancing Script Bold'),
+        local('DancingScript-Bold'),
+        url('../fonts/DancingScript-Bold.woff2') format('woff2'),
+        url('../fonts/DancingScript-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flow Circular';
+    src:
+        local('Flow Circular Regular'),
+        local('FlowCircular-Regular'),
+        url('../fonts/FlowCircular-Regular.woff2') format('woff2'),
+        url('../fonts/FlowCircular-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    padding: 1vw 5vw;
+}
+
+body {
+    background: linear-gradient(#eb7609,#fdc741);
+    color: rgb(255, 255, 255);
+}
+
+/* ===================================================================================================== */
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 18vw;
+}
+
+.welcome {
+    font-family: 'Dancing Script';
+    font-size: 10vw;
+    position: sticky;
+    top: 0;
+    padding-top: 2vw;
+}
+
+.main__text {
+    font-family: "Flow Circular";
+    text-align: center;
+    font-size: 2vw;
+}
+
+.main__banner {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 14vh;
+    width: 48vw;
+    position: fixed;
+    top: 82%;
+    left: 50vw;
+    box-shadow: #4d4d4d 0px 0px 25px 2px;
+}
+
+.main__banner-circle {
+    background: #6a6a6a;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 100px;
+    position: relative;
+    left: 3vw;
+    bottom: 3.5vw;
+    box-shadow: #4d4d4d 0px 0px 25px 1px;
+}
