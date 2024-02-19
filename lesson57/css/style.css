@@ -1,0 +1,40 @@
+body{
+    background: black;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.text::after{
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: rgb(135, 135, 255);
+    border: 1px solid white;
+    transform: translate(16px,10px);
+}
+
+.text::before{
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: rgb(255, 135, 135);
+    border: 1px solid white;
+    transform: translate(-16px,10px);
+}
+
