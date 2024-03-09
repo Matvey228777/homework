@@ -1,0 +1,41 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [col1] 250px [col2] 250px [col3] 250px [col4];
+    grid-template-rows: repeat(5,50px);
+    justify-content: center;
+}
+
+.element {
+    border: 5px grey dashed;
+    text-align: center;
+}
+
+.element-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.element-2 {
+    grid-row: 3/5;
+}
+.element-3 {
+
+}
+.element-4 {
+    grid-column: col1/col4;
+}
+.element-5 {
+
+}
+.element-6 {
+
+}
+.element-7 {
+
+}
