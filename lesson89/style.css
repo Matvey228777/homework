@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(36, 36, 36); 
+    margin: 0;
+}
+
+.btn {
+    color: #c5c5c5;
+    font-size: 400%;
+    font-weight: bold;
+    height: 35vh;
+    width: 30vw;
+    background: linear-gradient(90deg, #FF5F6D,#FFC371);
+    border-radius: 100px;
+    margin: 20px 35vw;
+    border: none;
+    transition: .3s;
+}
+
+.btn:hover {
+    box-shadow: #777777 0px 0px 20px 20px;
+}
+
+.btn:active {
+    height: 36vh;
+    width: 32vw;
+    margin: 20px 34vw;
+}
+
+.text {
+    color: #f9b8ef;
+    font-size: 40px;
+    font-weight: bold;
+    transition: .7s;
+    margin-left: 40%;
+    display: inline-block;
+}
+
+.hehe {
+    display: inline-block;
+    transform: translateX(10vw);
+}
