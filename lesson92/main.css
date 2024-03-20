@@ -1,0 +1,57 @@
+* {
+    font-size: 24px;
+}
+
+.body {
+    height: 200vh;
+}
+
+.body--fixed {
+    overflow-y: hidden;
+}
+
+.btn {
+    margin: 15px;
+    height: 100px;
+    width: 450px;
+    background: #9797ff;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.modal {
+    background: #2c2c2cc1;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.modal--open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-form {
+    width: 50vw;
+    background-color: azure;
+    border-radius: 80px;
+    position: relative;
+    padding: 60px 30px 30px 25px;
+}
+
+.btnX {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    background-color: #ccfafa;
+    border-radius: 100px;
+    width: 35px;
+    font-size: 28px;
+    font-weight: 700;
+}
