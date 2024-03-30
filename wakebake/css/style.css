@@ -1,0 +1,141 @@
+:root {
+    --general-color: #312c27;
+    --accent-bg: #FFA55C;
+    --h-color: #1F1711;
+    --fone-bg: #FFE0CB;
+
+}
+
+body{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--general-color);
+    background: #FFF9F4;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    width: 1310px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    background: var(--accent-bg);
+    border-radius: 60px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 18px;
+    display: block;
+    transition: all .4s;
+}
+.button:hover {
+    background: #FF9138;
+}
+
+/* ====================================================== */
+.header__top {
+    padding: 19px 0 0;
+}
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header__logo {
+    max-width: 173px;
+}
+.nav__list {    
+    display: flex;
+    gap: 34px;
+}
+.nav__link {
+    display: block;
+    padding: 5px 3px;
+    position: relative;
+}
+.nav__link::before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -13px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    z-index: -1;
+    background: var(--accent-bg);
+
+    opacity: 0;
+    transition: all .4s;
+}
+.nav__link:hover::before{
+    opacity: 1;
+}
+
+.hero {
+    margin-top: 50px;
+}
+.hero__inner {
+    display: flex;
+    align-items: flex-end;
+}
+.hero__content {
+}
+.hero__info {
+    color: #b197b3;
+    line-height: 1.6;
+    display: flex;
+    margin-bottom: 20px;
+}
+.hero__info span{
+    display: flex;
+}
+.hero__info span::after{
+    content: '';
+    background: #b197b3;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 0  10px;
+    display: block;
+    align-self: center;
+}
+.hero__info span:last-child:after{
+    content: none;
+}
+.hero__title {
+    color: var(--h-color);
+    font-family: 'Gabriola';
+    font-size: 74px;
+    line-height: 82%;
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+.hero__text {
+    color: var(--general-color);
+    max-width: 360px;
+    margin-bottom: 40px;
+}
+.hero__button {
+    max-width: 360px;
+}
+.hero__img {
+}
+.hero__side {
+}
+.hero__media-button {
+}
