@@ -32,11 +32,11 @@
 
 .footer__socials p {
     align-self: center;
-    margin-right: .8vw;
 }
 
-.footer__socials .socials__telegram {
-    margin-bottom: 10px;
+.footer__socials-telegram {
+    margin: 0 10px 0 16px;
 }
+
 
 .author {}

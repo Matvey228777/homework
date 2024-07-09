@@ -141,6 +141,7 @@
     display: flex;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 8px;
 }
 
 .header__dash {
@@ -169,14 +170,22 @@
     font-size: 13px;
     line-height: 1.5;
     max-width: 297px;
-    padding: 30px 42.5px;
+    padding: 30px 0;
+}
+
+.header__blue-button a {
+    padding: 30px 41.5px;
 }
 
 .header__yellow-button {
     max-width: 265px;
-    padding: 30px 41.75px;
+    padding: 30px 0;
     font-size: 13px;
     line-height: 1.5;
+}
+
+.header__yellow-button a {
+    padding: 30px 39.75px;
 }
 
 .header__hint {
@@ -220,4 +229,102 @@
     position: absolute;
 }
 
-/* ================================= */
+/* ================================= page*/
+
+.header--page {
+    z-index: -1;
+    height: 100%;
+    margin-top: 0;
+    background: url(../media/page/pagebg.png) 50% 50% / cover no-repeat;
+}
+
+.header--page .header__inner {
+    margin-top: 20px;
+}
+
+.header--page::after {
+    display: none;
+}
+
+.header--page__hero {
+    margin-top: 83px;
+}
+
+.header--page__title {
+    max-width: 614px;
+}
+
+.header--page__text {
+    max-width: 520px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 17px 0 31px;
+}
+
+.header--page__links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 577px;
+}
+
+.header--page__wt {
+    text-align: center;
+    background: #7AD06D;
+    color: white;
+    border-radius: 100px;
+    width: 297px;
+    position: relative;
+    transition: all .4s;
+}
+
+.header--page__wt:hover {
+    background: #72c466;
+}
+
+.header--page__wt a {
+    position: relative;
+    padding: 21px 22px;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: .15em;
+}
+
+.header--page__wt span {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    display: block;
+}
+
+.header--page__wt-info {
+    transform: translateX(7%);
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    text-align-last: left;
+    color: var(--text-grey);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    max-width: 269px;
+    padding: 93px 13px 14px 26px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.header--page__wt-info li {
+    list-style-type: disc;
+}
+
+.header--page__return {
+    padding: 35px 0 30px;
+}
+
+.header--page__return a {
+    padding: 30px 48px;
+}
